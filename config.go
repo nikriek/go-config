@@ -16,7 +16,6 @@ func Requires(envs []string) (Config, error) {
     value := os.Getenv(index)
     if value == "" {
       return c, errors.New(fmt.Sprintf("%v is missing", index))
-      break
     } 
     c.Envs[index] = value
   }
