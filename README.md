@@ -1,5 +1,5 @@
 # go-config
-When working with microservice, Docker and go, I experienced a really ununified way for configuration.
+When working with microservice, Docker and go, I wanted to have a simple way for my service configuration. 
 
 ## Example
 ```
