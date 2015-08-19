@@ -11,7 +11,7 @@ type Config struct {
 }
 
 func Requires(envs []string) (Config, error) {
-  c := Config{}
+  c := Config{make(map[string]string)}
   for _,index := range envs {
     value := os.Getenv(index)
     if value == "" {
