@@ -2,7 +2,7 @@
 Configuration with env variables 
 
 ## Example
-```
+```go
 import (
   config "github.com/nikriek/go-config"
 )
