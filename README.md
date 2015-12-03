@@ -10,7 +10,7 @@ import (
 func main() {
 
   // Provide a list of required variables
-  c, err := config.Requires([]]string{"DB_HOST", "PUBLIC_KEY"})
+  c, err := config.Requires([]string{"DB_HOST", "PUBLIC_KEY"})
   if err != nil{
     panic(err) // "DB_HOST needs to be set"
   }
